@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-16"?>
+<directlog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <clientes>
+    <cliente>
+      <codigo>8333</codigo>
+      <numerolote>225829</numerolote>
+      <datahoralote>23/06/2015 16:42</datahoralote>
+      <remessas>
+        <remessa>
+          <nrremessa />
+          <notafiscal>isupply123</notafiscal>
+          <pedido>5188376</pedido>
+          <serienotafiscal>1</serienotafiscal>
+          <especie>envelope</especie>
+          <nomedest>Nome do destinatario</nomedest>
+          <tipopessoa>F</tipopessoa>
+          <cpfcnpj>11111111111</cpfcnpj>
+          <logradouro />
+          <endereco>Rua destinatario</endereco>
+          <numero>65</numero>
+          <compl>complemento do endereco </compl>
+          <bairro>Barra Grande</bairro>
+          <cidade>Vera Cruz</cidade>
+          <uf>BA</uf>
+          <pais>BR</pais>
+          <cep>44470000</cep>
+          <tel1>71 77777777</tel1>
+          <tel2 />
+          <tel3 />
+          <email />
+          <obs />
+          <inscestadual />
+          <cfop />
+          <valortotalicms />
+          <outrasnotafiscais>
+            <notafiscal />
+          </outrasnotafiscais>
+          <outraspedidos>
+            <pedido />
+          </outraspedidos>
+          <valortotnotas>82.75</valortotnotas>
+          <pesototnotas>2.8</pesototnotas>
+          <qtdvolumes>1</qtdvolumes>
+          <volumes>
+            <volume>
+              <numvol>1</numvol>
+              <pesovol>2.4</pesovol>
+            </volume>
+            <volume>
+              <numvol>2</numvol>
+              <pesovol>0.4</pesovol>
+            </volume>
+          </volumes>
+          <valorentrega />
+          <valortotprodutos />
+          <produtos>
+            <produto>
+              <nrvolume>1</nrvolume>
+              <codigoproduto>5386</codigoproduto>
+              <descricao>Descricao produto entrega</descricao>
+              <qtd>2</qtd>
+              <subFiscal />
+              <classfiscal />
+              <valorunitario>10.5</valorunitario>
+              <valortotal>21</valortotal>
+              <porcentagemicms />
+            </produto>
+            <produto>
+              <nrvolume>1</nrvolume>
+              <codigoproduto>5387</codigoproduto>
+              <descricao>Descricao produto 2 da entrega</descricao>
+              <qtd>1</qtd>
+              <subFiscal />
+              <classfiscal />
+              <valorunitario>5.75</valorunitario>
+              <valortotal>5.75</valortotal>
+              <porcentagemicms />
+            </produto>
+            <produto>
+              <nrvolume>2</nrvolume>
+              <codigoproduto>5388</codigoproduto>
+              <descricao>Descricao produto 3 da entrega</descricao>
+              <qtd>1</qtd>
+              <subFiscal />
+              <classfiscal />
+              <valorunitario>56</valorunitario>
+              <valortotal>56</valortotal>
+              <porcentagemicms />
+            </produto>
+          </produtos>
+          <produtoacessorios>
+            <produtodirect>05</produtodirect>
+            <cod>0</cod>
+            <ar>0</ar>
+            <frap>0</frap>
+            <doc>0</doc>
+          </produtoacessorios>
+          <descricaocoleta />
+          <datacoleta />
+          <obscoleta />
+          <horariolimitecoleta />
+          <dataagendamento />
+          <obsagend1 />
+          <obsagend2 />
+          <qtdparcelas />
+          <vltotparcelas />
+          <usalogicadecalculoautomatico />
+          <data1ovenc />
+          <parcelas>
+            <parcela>
+              <numparc />
+              <vlparc />
+              <dtvencparc />
+              <formapagamento />
+            </parcela>
+          </parcelas>
+		  <chavenfe>11111111111111111111111111111111111111111111</chavenfe>
+        </remessa>
+      </remessas>
+      <rodape>
+        <qtdremessaslote>1</qtdremessaslote>
+      </rodape>
+    </cliente>
+  </clientes>
+</directlog>

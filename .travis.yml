@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+  - 2.2.2
+before_install:
+  - touch spec/config.yml
+  - echo 'ws:' >> spec/config.yml
+  - echo '  endpoint:' $WS_DIRECTLOG_ENDPOINT >> spec/config.yml
+  - echo '  login:' $WS_DIRECTLOG_LOGIN >> spec/config.yml
+  - echo '  password:' $WS_DIRECTLOG_PASSWORD >> spec/config.yml
+  - sudo apt-get install freetds-dev
+  - gem install bundler -v 1.10.6
+
+script:
+  - bundle exec rspec spec
