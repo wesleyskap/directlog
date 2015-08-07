@@ -39,4 +39,4 @@ Directlog::Freight.calculate(weight: '', zip_code_destination: '', amount: '')
 
 ## Code Status
 
-[![Build Status](https://travis-ci.org/wesleyskap/directlog-ruby.svg?branch=master)](https://travis-ci.org/wesleyskap/directlog-ruby)
+[![Build Status](https://travis-ci.org/wesleyskap/directlog.svg?branch=master)](https://travis-ci.org/wesleyskap/directlog)
