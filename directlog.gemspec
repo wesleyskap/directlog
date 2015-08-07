@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["kerponeis@gmail.com"]
   spec.summary       = "Ruby API to directlog"
   spec.description   = "Ruby API to directlog"
-  spec.homepage      = "https://github.com/wesleyskap/directlog-ruby"
+  spec.homepage      = "https://github.com/wesleyskap/directlog"
   spec.license       = "MIT"
 
   spec.required_ruby_version     = '>= 2.2.2'
