@@ -24,7 +24,11 @@ Calculete Freight
 ```ruby
 Directlog::Freight.calculate(weight: '', zip_code_destination: '', amount: '')
 
-=> {:consultafrete=>{:sucesso=>"False", :mensagem=>"A consulta retornou vazio, porem sem erros. Verifique as informaÃ§Ãµes enviadas>", :valorfrete=>"0.00", :prazoentrega=>nil}}
+=> {:consultafrete=>
+    {:sucesso=>"False",
+    :mensagem=>"A consulta retornou vazio, porem sem erros. Verifique as informaÃ§Ãµes enviadas>",
+    :valorfrete=>"0.00",
+    :prazoentrega=>nil}}
 ```
 
 
