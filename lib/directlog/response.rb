@@ -18,13 +18,19 @@ module Directlog
     private
 
     def doc
-      xml_parser(@savon.hash[:envelope][:body]["#{@method}_response".to_sym]["#{@method}_result".to_sym])
+      node_result ? xml_parser(node_result) : xml_parser(node_response[:xml])
     end
 
     def xml_parser(xml)
       Nori.new(convert_tags_to: lambda { |tag| tag.snakecase.to_sym }).parse(xml)
     end
+
+    def node_response
+      @savon.hash[:envelope][:body]["#{@method}_response".to_sym]
+    end
+
+    def node_result
+      node_response["#{@method}_result".to_sym]
+    end
   end
 end
-
-
