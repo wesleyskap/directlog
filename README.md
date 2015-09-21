@@ -31,6 +31,13 @@ Directlog::Freight.calculate(weight: '', zip_code_destination: '', amount: '')
     :prazoentrega=>nil}}
 ```
 
+Orders
+
+```ruby
+Directlog::Order.create!(xml)
+
+Directlog::Order.find_by_number(xml)
+```
 
 ## Contributing
 
