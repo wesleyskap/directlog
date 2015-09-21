@@ -17,4 +17,13 @@ describe Directlog::Order do
       end
     end
   end
+
+  describe ".find_by_number" do
+    it 'should return order tracking status' do
+      VCR.use_cassette('directlog_find_order_by_number') do
+        find_result = Directlog::Order.find_by_number(File.read('./spec/fixtures/directlog_find_order_by_number.xml'))
+        expect(find_result).to an_instance_of(Hash)
+      end
+    end
+  end
 end
