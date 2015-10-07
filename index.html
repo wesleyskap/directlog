@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Directlog by wesleyskap</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Directlog</h1>
+        <p>Ruby API to Directlog WS</p>
+
+        <p class="view"><a href="https://github.com/wesleyskap/directlog">View the Project on GitHub <small>wesleyskap/directlog</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/wesleyskap/directlog/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/wesleyskap/directlog/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/wesleyskap/directlog">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="directlog" class="anchor" href="#directlog" aria-hidden="true"><span class="octicon octicon-link"></span></a>Directlog</h1>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Add this line to your application's Gemfile:</p>
+
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">gem</span> <span class="pl-s"><span class="pl-pds">'</span>directlog<span class="pl-pds">'</span></span></pre></div>
+
+<p>And then execute:</p>
+
+<pre><code>$ bundle
+</code></pre>
+
+<p>Or install it yourself as:</p>
+
+<pre><code>$ gem install directlog
+</code></pre>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Calculete Freight</p>
+
+<div class="highlight highlight-source-ruby"><pre><span class="pl-c1">Directlog</span>::<span class="pl-c1">Freight</span>.calculate(<span class="pl-c1">weight:</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>, <span class="pl-c1">zip_code_destination:</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>, <span class="pl-c1">amount:</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>)
+
+=&gt; {<span class="pl-c1">:consultafrete</span>=&gt;
+    {<span class="pl-c1">:sucesso</span>=&gt;<span class="pl-s"><span class="pl-pds">"</span>False<span class="pl-pds">"</span></span>,
+    <span class="pl-c1">:mensagem</span>=&gt;<span class="pl-s"><span class="pl-pds">"</span>A consulta retornou vazio, porem sem erros. Verifique as informaÃ§Ãµes enviadas&gt;<span class="pl-pds">"</span></span>,
+    <span class="pl-c1">:valorfrete</span>=&gt;<span class="pl-s"><span class="pl-pds">"</span>0.00<span class="pl-pds">"</span></span>,
+    <span class="pl-c1">:prazoentrega</span>=&gt;<span class="pl-c1">nil</span>}}</pre></div>
+
+<p>Orders</p>
+
+<div class="highlight highlight-source-ruby"><pre><span class="pl-c1">Directlog</span>::<span class="pl-c1">Order</span>.create!(xml)
+
+<span class="pl-c1">Directlog</span>::<span class="pl-c1">Order</span>.find_by_number(xml)</pre></div>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<ol>
+<li>Fork it ( <a href="https://github.com/%5Bmy-github-username%5D/directlog/fork">https://github.com/[my-github-username]/directlog/fork</a> )</li>
+<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>
+<li>Commit your changes (<code>git commit -am 'Add some feature'</code>)</li>
+<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>
+<li>Create a new Pull Request</li>
+</ol>
+
+<h2>
+<a id="code-status" class="anchor" href="#code-status" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code Status</h2>
+
+<p><a href="https://travis-ci.org/wesleyskap/directlog"><img src="https://travis-ci.org/wesleyskap/directlog.svg?branch=master" alt="Build Status"></a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/wesleyskap">wesleyskap</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
