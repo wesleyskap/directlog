@@ -15,6 +15,10 @@ module Directlog
       @result = doc
     end
 
+    def nresult
+      xml_parser(node_response[:xml])
+    end
+
     private
 
     def doc
