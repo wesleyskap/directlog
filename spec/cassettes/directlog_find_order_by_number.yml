@@ -29,7 +29,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Mon, 21 Sep 2015 14:04:53 GMT
+      - Tue, 20 Oct 2015 15:00:03 GMT
       Content-Length:
       - '13962'
       X-Cache:
@@ -39,7 +39,7 @@ http_interactions:
       Via:
       - 1.1 localhost (squid/3.3.10)
       Connection:
-      - close
+      - keep-alive
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -355,7 +355,7 @@ http_interactions:
         CiAgICA8L3dzZGw6cG9ydD4NCiAgPC93c2RsOnNlcnZpY2U+DQo8L3dzZGw6
         ZGVmaW5pdGlvbnM+
     http_version: 
-  recorded_at: Mon, 21 Sep 2015 14:04:53 GMT
+  recorded_at: Tue, 20 Oct 2015 15:01:13 GMT
 - request:
     method: post
     uri: http://wsdirect.directlog.com.br/dev/wsdirectlog.asmx
@@ -397,7 +397,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Mon, 21 Sep 2015 14:05:24 GMT
+      - Tue, 20 Oct 2015 15:00:03 GMT
       Content-Length:
       - '789'
       X-Cache:
@@ -407,7 +407,7 @@ http_interactions:
       Via:
       - 1.1 localhost (squid/3.3.10)
       Connection:
-      - close
+      - keep-alive
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -421,7 +421,7 @@ http_interactions:
         ZmFsc2U8L0NvbnN1bHRhU3RhdHVzRW50cmVnYVJlc3VsdD48eG1sPiZsdDs/
         eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IklTTy04ODU5LTEiID8mZ3Q7
         Jmx0O3dzZGlyZWN0bG9nJmd0Ow0KICAgICAmbHQ7cmV0b3JubyZndDsNCiAg
-        ICAgICAgICZsdDtwcm90b2NvbG8mZ3Q7Mzg4MTk2NzUgICAgJmx0Oy9wcm90
+        ICAgICAgICZsdDtwcm90b2NvbG8mZ3Q7Mzk1Mjg1NjUgICAgJmx0Oy9wcm90
         b2NvbG8mZ3Q7DQogICAgICAgICAmbHQ7bWVuc2FnZW5zJmd0Ow0KICAgICAg
         ICAgICAgICZsdDttZW5zYWdlbSZndDtOw6NvIGZvaSBlbmNvbnRyYWRvIG5l
         bmh1bSBwZWRpZG8gY29tIG8ocykgcGFyYW1ldHJvKHMpIGVudmlhZG8ocyku
@@ -430,5 +430,5 @@ http_interactions:
         Ow0KPC94bWw+PC9Db25zdWx0YVN0YXR1c0VudHJlZ2FSZXNwb25zZT48L3Nv
         YXA6Qm9keT48L3NvYXA6RW52ZWxvcGU+
     http_version: 
-  recorded_at: Mon, 21 Sep 2015 14:05:25 GMT
+  recorded_at: Tue, 20 Oct 2015 15:01:13 GMT
 recorded_with: VCR 2.9.3

@@ -29,7 +29,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Thu, 06 Aug 2015 20:53:53 GMT
+      - Tue, 20 Oct 2015 14:59:37 GMT
       Content-Length:
       - '13962'
       X-Cache:
@@ -355,7 +355,7 @@ http_interactions:
         CiAgICA8L3dzZGw6cG9ydD4NCiAgPC93c2RsOnNlcnZpY2U+DQo8L3dzZGw6
         ZGVmaW5pdGlvbnM+
     http_version: 
-  recorded_at: Thu, 06 Aug 2015 20:53:54 GMT
+  recorded_at: Tue, 20 Oct 2015 15:00:48 GMT
 - request:
     method: post
     uri: http://wsdirect.directlog.com.br/dev/wsdirectlog.asmx
@@ -448,7 +448,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Thu, 06 Aug 2015 20:53:55 GMT
+      - Tue, 20 Oct 2015 15:00:03 GMT
       Content-Length:
       - '983'
       X-Cache:
@@ -465,12 +465,12 @@ http_interactions:
         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><RecebePedidosNotasResponse
         xmlns=\"http://www.directlog.com.br/\"><RecebePedidosNotasResult>&lt;?xml
         version=\"1.0\" encoding=\"ISO-8859-1\" ?&gt;\r\n&lt;wsdirectlog&gt;\r\n    &lt;retorno&gt;\r\n
-        \       &lt;protocolo&gt;38329610    &lt;/protocolo&gt;\r\n        &lt;pedidos&gt;\r\n
+        \       &lt;protocolo&gt;39528564    &lt;/protocolo&gt;\r\n        &lt;pedidos&gt;\r\n
         \           &lt;pedido&gt;\r\n                &lt;numeropedido&gt;5188376&lt;/numeropedido&gt;\r\n
         \               &lt;notafiscal&gt;isupply123&lt;/notafiscal&gt;\r\n                &lt;mensagens&gt;\r\n
         \                   &lt;mensagem&gt;Pedido cadastrado com sucesso!&lt;/mensagem&gt;\r\n
         \               &lt;/mensagens&gt;\r\n            &lt;/pedido&gt;\r\n        &lt;/pedidos&gt;\r\n
         \   &lt;/retorno&gt;\r\n&lt;/wsdirectlog&gt;\r\n</RecebePedidosNotasResult></RecebePedidosNotasResponse></soap:Body></soap:Envelope>"
     http_version: 
-  recorded_at: Thu, 06 Aug 2015 20:53:55 GMT
+  recorded_at: Tue, 20 Oct 2015 15:01:12 GMT
 recorded_with: VCR 2.9.3
