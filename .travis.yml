@@ -13,7 +13,7 @@ before_install:
   - sudo apt-get install freetds-dev
   - gem install bundler
 before_script:
-  - bundle update
+  - bundle
 bundler_args: --without test --retry 3
 script:
   - bundle exec rspec spec
